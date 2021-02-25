@@ -1,0 +1,170 @@
+body{
+    background: lightblue}
+    /* div { background-image: url(plaatje.jpg); }  werkt niet!!*/
+    /* div { background-image: url(backgr.gif); } */
+h1{ 
+    background-color: lightblue; 
+    /* achtergrond van header 1 is aangepast naar greenyellow */
+    color: red;
+    /* tekt kleur staat op rood */
+    font-size: 100px;
+    /* grote van lettertype staat op 130 px */
+
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 60%;
+    font-family: 'Akaya Telivigala', cursive;
+    /*dit zorgt ervoor dat de header in het midde van de pagina staat met een spanweide van de achtergrond op 56% van de pagina */
+
+}
+
+
+
+.speciaal {font-size: 15px; 
+    color: red;
+    display: block;
+    margin-left: 40%;
+    margin-right: 30%;
+    width: 30%;
+}  
+
+
+h2{
+
+color: white;
+font-size: 20px;
+margin-left: 50%;
+margin-right: 50%;
+width: 50%;
+}
+
+
+
+img {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 49%;
+  }
+
+div{
+    font-size: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 40%;  
+}
+
+
+#eerste { 
+    color: white
+}
+
+/* onderstaande geeft een selectie die een bepaalde kleur krijgt de rest zal een neutrale kleur houden */
+p strong { color: red; 
+  margin-left: 30%;
+  margin-right: 30%;
+  width: auto; 
+}
+
+div { background-image: url(backgr.gif); }
+
+
+
+
+
+a{
+
+  color: black;
+  font-size: 12px;
+  margin-left: 17%;
+  margin-right: 10%;
+  width: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.boxLeft {
+    background-color: rgb(168, 62, 29);
+    transition: background-color .5s;
+  }
+  
+.boxLeft:hover {
+    background-color: rgb(28, 165, 28);
+  }
+
+.boxRight {
+    background-color: rgb(95, 55, 8);
+    transition: background-color .5s;
+  }
+  
+.boxRight:hover {
+    background-color: rgb(167, 182, 31);
+  }
+
+
+.box3 {
+    background-color: red;
+    transition: background-color .5s;
+  }
+  
+.box3:hover {
+    background-color: rgb(207, 146, 53);
+  } 
+
+.box4 {
+    background-color: rgb(121, 20, 91);
+    transition: background-color .5s;
+  }
+
+.box4:hover {
+    background-color: rgb(9, 15, 90);
+  } 
+
+  /* .wrapper {
+    width: 620px;
+    height: 110px;
+    margin: 0;
+    padding: 10px;
+    border: 6px solid mediumturquoise;
+  } */
+
+.box {
+    width: 290px;
+    height: 100px;
+    margin: 0;
+    padding: 4px 6px;
+    font-size: 28px "Marker Felt", "Zapfino", cursive;
+    display: flex;
+    justify-content: center;
+    margin: 1em 2em;
+ 
+  }
+/* waarom box 1 en niet box ????????????????????????????????????????? */
+.box1 {
+    float: left;
+    /* background-color: rgb(245, 130, 130);
+    outline: 2px solid rgb(0, 139, 12); */
+  }
+
+  /* .box2 {
+    float: left;
+    background-color: hsl(270deg, 50%, 75%);
+    outline: 20px solid rgb(17, 14, 14);
+    color: hsl(0deg, 100%, 100%);
+
+  }
+  
+.box3 {
+    float: left;
+    background-color: rgb(32, 129, 65);
+    outline: 2px solid rgb(17, 14, 14);
+    color: rgb(20, 19, 19);
+  
+  } */
