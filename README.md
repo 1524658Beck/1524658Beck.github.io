@@ -3,3 +3,4 @@
 wijziging 
 
 2
+[plaatje](/img.mischa.jpg)
